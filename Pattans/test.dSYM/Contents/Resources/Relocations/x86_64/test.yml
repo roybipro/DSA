@@ -1,0 +1,9 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/biproroy/Library/CloudStorage/OneDrive-AmericanInternationalUniversity-Bangladesh/Devloper/c++ dsa/DSA/Pattans/test'
+relocations:
+  - { offset: 0x5160, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x15EB1, symBinAddr: 0x100002000, symSize: 0x0 }
+  - { offset: 0x52C2, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_test.cpp, symObjAddr: 0x75, symBinAddr: 0x1000007BF, symSize: 0xB }
+  - { offset: 0x52D9, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x3C, symBinAddr: 0x100000786, symSize: 0x39 }
+  - { offset: 0x52F7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000750, symSize: 0x36 }
+...
