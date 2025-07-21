@@ -23,10 +23,18 @@ using namespace std;
     fBacktrack(i-1,n);
     cout<<i<<endl; 
   }
-
+ //Backtracking Revarse order
+ void fReBacktracking(int i,int n){
+    if (i>n){
+        return;
+    }
+    
+    fReBacktracking(i+1,n);
+    cout<<i<<endl;
+  } 
   int main() {
    int n;
    cin>>n;
-   fBacktrack(n,n); 
+   fReBacktracking(1,n); 
     return 0;
 }
