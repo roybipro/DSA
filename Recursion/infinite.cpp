@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void infinite(int a){
-    
-    cout<<a;
-    a++;
-    infinite(a+1);
+int cnt = 0; // Global variable
+
+void infinite() {
+    if (cnt == 4) {
+        return; // Base case to stop recursion
+    }
+    cout << cnt << " ";
+    cnt++;
+    infinite(); // Recursive call
 }
+
 int main() {
-    // Your code goes here
-    infinite(1);
+    infinite(); // Function call starts recursion
     return 0;
 }
