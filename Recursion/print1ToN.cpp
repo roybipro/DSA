@@ -35,6 +35,6 @@ using namespace std;
   int main() {
    int n;
    cin>>n;
-   fReBacktracking(1,n); 
+   fRevarse(n,n); 
     return 0;
 }
