@@ -9,6 +9,8 @@ fun(i+1,n);
 int main() {
     // Your code goes here
     int n;
+    cout<<"Enter the value of n: ";
+    
     cin>>n;
 fun(1,n);
     return 0;
