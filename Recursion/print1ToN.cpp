@@ -37,6 +37,6 @@ void f(int i,int n){
   int main() {
    int n;
    cin>>n;
-   fBacktrack(n,n);
+   fBacktrack(n,n); 
     return 0;
 }
