@@ -8,11 +8,18 @@ void f(int i,int sum){
     }
   f(i-1,sum+i);
 }
+//Functional Recursion
+int f2(int n){
+    if(n==0){
+    return 0;}
+    return n + f2(n-1);
+
+}
 int main() {
     // Your code goes here
     int n;
     cout<<"Enter the Number :";
     cin>>n;
-    f(n,0);
+   cout<<f2(n);
     return 0;
 }
