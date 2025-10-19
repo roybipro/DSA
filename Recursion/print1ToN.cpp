@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
-  void f(int i,int n){
+  //n order
+void f(int i,int n){
     if (i>n){
         return;
     }
     cout<<i<<endl;
+    
     f(i+1,n);
   }
 //Revarse order
@@ -35,6 +37,6 @@ using namespace std;
   int main() {
    int n;
    cin>>n;
-   fRevarse(n,n); 
+   fBacktrack(n,n);
     return 0;
 }
