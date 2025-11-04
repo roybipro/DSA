@@ -11,6 +11,7 @@ void selection_sort(int arr[], int n)
                 mini = j;
             }
         }
+        // Swap the found minimum element with the first element
         int temp =arr[mini];
         arr[mini]=arr[i];
         arr[i]=temp;
