@@ -1,0 +1,61 @@
+2025-10-14T18:46:04.138Z [INFO] ----------------------invoke install_jdk----------------------
+2025-10-14T18:46:04.139Z [INFO] [Tool.invoke]({name: install_jdk, input: {
+  "dest": "/Users/roybipro/.jdk",
+  "version": "21",
+  "projectPath": "/Users/roybipro/Developer/c++ dsa/DSA"
+}}).
+2025-10-14T18:46:04.139Z [INFO] [Task.start](): Starting task toolCall
+2025-10-14T18:46:04.139Z [INFO] [Task.start](): Started task toolCall
+2025-10-14T18:46:04.139Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-10-14T18:46:04.663Z [INFO] Copilot user info:{
+  "access_type_sku": "free_educational_quota",
+  "analytics_tracking_id": "66fef9b58c11ac5ab41240f9a1fd4e5b",
+  "assigned_date": "2024-10-06T15:12:51+06:00",
+  "can_signup_for_limited": false,
+  "chat_enabled": true,
+  "copilot_plan": "individual",
+  "organization_login_list": [],
+  "organization_list": [],
+  "quota_reset_date": "2025-11-01",
+  "quota_snapshots": {
+    "chat": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "chat",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-10-14T18:46:04.609Z"
+    },
+    "completions": {
+      "entitlement": 0,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "completions",
+      "quota_remaining": 0,
+      "remaining": 0,
+      "unlimited": true,
+      "timestamp_utc": "2025-10-14T18:46:04.609Z"
+    },
+    "premium_interactions": {
+      "entitlement": 300,
+      "overage_count": 0,
+      "overage_permitted": false,
+      "percent_remaining": 100,
+      "quota_id": "premium_interactions",
+      "quota_remaining": 300,
+      "remaining": 300,
+      "unlimited": false,
+      "timestamp_utc": "2025-10-14T18:46:04.609Z"
+    }
+  },
+  "quota_reset_date_utc": "2025-11-01T00:00:00.000Z"
+}
+2025-10-14T18:46:04.664Z [WARN] "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.
+2025-10-14T18:46:04.664Z [ERROR] [Tool.invoke] error occurs when invoking tool install_jdk: UserError: "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for GitHub Copilot "Pro", "Pro+", "Business" and "Enterprise" plans.. Please upgrade your GitHub Copilot plan to use this feature or upgrading this project using other tools you prefer..
+2025-10-14T18:46:04.665Z [INFO] [Task.complete](): Completing task toolCall
+2025-10-14T18:46:04.666Z [INFO] ----------------------invoked install_jdk----------------------
+2025-10-14T18:46:04.668Z [INFO] [Task.complete](): Completed task toolCall
