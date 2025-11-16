@@ -12,7 +12,7 @@ int main() {
     }
 
     //precompute
-    int hash[13] ={0};
+    int hash[100000] ={0}; //if it is on global then it will be initialized with 0 automatically
     for(int i=0;i<n;i++){
        hash[arr[i]]+= 1; 
     }
