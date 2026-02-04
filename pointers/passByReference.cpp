@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-void changeA(int* ptr){ //pass by reference 
-    *ptr=20;
+void changeA(int &b){ //pass by reference using alias 
+    b =25;
 }
 int main() {
     
     int a =10;
 
-    changeA(&a);
+    changeA(a);
 
     cout<<"Inside main fnx :"<<a<<endl;//20
     return 0;
