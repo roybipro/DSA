@@ -5,7 +5,7 @@ void changeA(int &b){ //pass by reference using alias
 }
 int main() {
     
-    int a =10;
+    int a =1;
 
     changeA(a);
 
